@@ -30,7 +30,7 @@ namespace Labb3_SystemTesting
                     Console.WriteLine("\n1: Addition \n2: Subtract \n3: Multiply \n4: Devide");
                     
                     int menu2 = Convert.ToInt32(Console.ReadLine());
-                    switch (menu2)
+                    switch (menu2) 
                     {
                         case 1:
                             cal.Addition(cal.input1, cal.input2);
